@@ -40,6 +40,23 @@ body {
     gap: 32px;
 }
 
-a {
-    color: red;
+.logo-sol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.links-nav:hover path, .links-nav:hover a{
+    cursor: pointer;
+    fill: #FFB800;
+    stroke: #FFB800;
+    color: #FFB800;
 }
