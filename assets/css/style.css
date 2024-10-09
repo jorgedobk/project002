@@ -80,7 +80,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #303030; /* color add #060606  */
+    background-color: #060606; /* color add #060606  */
 }
 
 .intro-box {
@@ -132,10 +132,41 @@ body {
     margin-right: -470px;
 }
 
-/* ---------- Main SECTION 2 ---------- */
+/* ---------- Main Visit Card 2 ---------- */
 
 .main-visitcard {
     width: 100%;
-    height: 500px;
-    background-color: red;
+    height: 600px;
+    background-color: #060606;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
 }
+
+.visitcard-logo {
+    width: 350px;
+    height: 77px;
+}
+
+.visitcard-box {
+    width: 700px;
+    height: 350px;
+    border: 2px solid #ffffff;
+    border-radius: 32px 0 32px 0 ;
+    background-color: #060606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitcard-box-text {
+    width: 600px;
+    font-family: "alef", sans-serif;
+    font-size: 32px;
+    color: white;
+    text-align: justify;
+}
+
+/* ---------- Main Noticia 001 ---------- */
